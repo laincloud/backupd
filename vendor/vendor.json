@@ -1,0 +1,181 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "SdEcxwaW92m0H3pao3BPj2ZpvaU=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "f7f79f729e0fbe2fcc061db48a9ba0263f588252",
+			"revisionTime": "2016-01-19T00:00:32Z"
+		},
+		{
+			"checksumSHA1": "O+8O8IhnsTMYkZfF4oA3D1wYXw0=",
+			"path": "github.com/boltdb/bolt",
+			"revision": "51f99c862475898df9773747d3accd05a7ca33c1",
+			"revisionTime": "2015-09-21T20:14:00Z"
+		},
+		{
+			"checksumSHA1": "i27YHcyHY4stkXm12/ztso3wHUo=",
+			"path": "github.com/codegangsta/cli",
+			"revision": "71f57d300dd6a780ac1856c005c4b518cfd498ec",
+			"revisionTime": "2016-04-04T01:54:34Z"
+		},
+		{
+			"checksumSHA1": "fcfxNsCuheCrubAAl6zWgimCnLY=",
+			"path": "github.com/codegangsta/inject",
+			"revision": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504",
+			"revisionTime": "2015-01-14T23:56:00Z"
+		},
+		{
+			"checksumSHA1": "sK8hJc/nXam8rslMKvI65P8A8Cc=",
+			"path": "github.com/go-martini/martini",
+			"revision": "184178ffc6b2f7b86b8b99c2a411de8771708a0a",
+			"revisionTime": "2015-08-08T22:05:48Z"
+		},
+		{
+			"checksumSHA1": "efKH3sFJE6kE1XwMFMu+35Rgogw=",
+			"origin": "github.com/laincloud/lainlet/vendor/github.com/laincloud/deployd/cluster",
+			"path": "github.com/laincloud/deployd/cluster",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "tbF4qAcB+gmGq6ig57Nry1ivtkY=",
+			"origin": "github.com/laincloud/lainlet/vendor/github.com/laincloud/deployd/engine",
+			"path": "github.com/laincloud/deployd/engine",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "s9xJXshISO7EuhSQnn0maWkyDZc=",
+			"origin": "github.com/laincloud/lainlet/vendor/github.com/laincloud/deployd/storage",
+			"path": "github.com/laincloud/deployd/storage",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "2VoB1ixvGBUb0dniryDWhyznezA=",
+			"path": "github.com/laincloud/lainlet/api",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "4h7yrJloMuOYkkCZUjNSBr6bDqk=",
+			"path": "github.com/laincloud/lainlet/api/v2",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "ZY4AM04KqJe8oErlbqrp9cY+cqQ=",
+			"path": "github.com/laincloud/lainlet/auth",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "dpj+PQoQhUCQfgCFN+9Umpz1Vxc=",
+			"path": "github.com/laincloud/lainlet/client",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "bFF2SBZk6am9jqd5slD5WFAgMoI=",
+			"path": "github.com/laincloud/lainlet/store",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "aFX2eLH5IGomfzw5x3aTO0xb5o0=",
+			"path": "github.com/laincloud/lainlet/watcher",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "Hq9l/dTMNNbMfzClL6iF+7qT92A=",
+			"path": "github.com/laincloud/lainlet/watcher/config",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "9HBZK0H6sXGBvMSapNhzWARUkGg=",
+			"path": "github.com/laincloud/lainlet/watcher/container",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "/oAgZ/r6kuk+0gg1jlVRTokYUZI=",
+			"path": "github.com/laincloud/lainlet/watcher/depends",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "7gRk/bOOJcrJp9v4pmORV+YAnT4=",
+			"path": "github.com/laincloud/lainlet/watcher/nodes",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "4muIhZiGuvwP5SVkGmy/+0+iwjk=",
+			"path": "github.com/laincloud/lainlet/watcher/podgroup",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "WMoHBLFJLLvhzbnatHIY+SgrrFI=",
+			"path": "github.com/martini-contrib/render",
+			"revision": "ec18f8345a1181146728238980606fb1d6f40e8c",
+			"revisionTime": "2015-07-07T14:21:08Z"
+		},
+		{
+			"checksumSHA1": "yj8KD7zx2Z+JHR+VelvojuSDurk=",
+			"origin": "github.com/laincloud/lainlet/vendor/github.com/mijia/adoc",
+			"path": "github.com/mijia/adoc",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "o7e6f7Ddy7KDm4JNxs01gBN6DJc=",
+			"origin": "github.com/laincloud/lainlet/vendor/github.com/mijia/go-generics",
+			"path": "github.com/mijia/go-generics",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "EskkDWg/7RcNa16FCA5qHNlGvQg=",
+			"origin": "github.com/laincloud/lainlet/vendor/github.com/mijia/sweb/log",
+			"path": "github.com/mijia/sweb/log",
+			"revision": "5d56b5fb7d0bfd6f456e37eae3b84634e9ef80e0",
+			"revisionTime": "2016-04-28T08:37:11Z"
+		},
+		{
+			"checksumSHA1": "uG/irJIgifYdc+HC1kF6Gwgn7kU=",
+			"path": "github.com/oxtoacart/bpool",
+			"revision": "4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6",
+			"revisionTime": "2015-07-12T13:31:11Z"
+		},
+		{
+			"checksumSHA1": "1whKo2sIMemLR6Ked08dE/+sRc8=",
+			"path": "github.com/stretchr/testify/assert",
+			"revision": "bcd32dcc8b1e09b14f55703dcf891fdd82561143",
+			"revisionTime": "2015-09-24T17:06:42Z"
+		},
+		{
+			"checksumSHA1": "pancewZW3HwGvpDwfH5Imrbadc4=",
+			"path": "golang.org/x/net/context",
+			"revision": "b797637b7aeeed133049c7281bfa31dcc9ca42d6",
+			"revisionTime": "2016-04-22T22:19:27Z"
+		},
+		{
+			"checksumSHA1": "c8iMfP5+K3GEg26HJiO0OVVLiM4=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "f64b50fbea64174967a8882830d621a18ee1548e",
+			"revisionTime": "2016-04-14T13:31:22Z"
+		},
+		{
+			"checksumSHA1": "CzLpoHWYgSP+mT3bcW/jt8epp5I=",
+			"path": "gopkg.in/robfig/cron.v2",
+			"revision": "be2e0b0deed5a68ffee390b4583a13aff8321535",
+			"revisionTime": "2015-01-07T22:02:07Z"
+		}
+	],
+	"rootPath": "github.com/laincloud/backupd"
+}
