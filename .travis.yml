@@ -13,14 +13,14 @@ script:
   - lain build
   - lain test
 
-after_success:
+# Build and deploy to Docker Hub
   - LAIN_APPNAME=backupctl
   - LAIN_IMAGE_VERSION="$(git show -s --format=%ct $TRAVIS_COMMIT)-$TRAVIS_COMMIT"
   - if [ "$TRAVIS_TAG" != "" ]; then
-    docker login -u="$DOCKER_USER" -p="$DOCKER_PASS";
-    docker images;
-    docker tag $LAIN_APPNAME:release-$LAIN_IMAGE_VERSION laincloud/$LAIN_APPNAME:release-$LAIN_IMAGE_VERSION;
-    docker tag $LAIN_APPNAME:meta-$LAIN_IMAGE_VERSION laincloud/$LAIN_APPNAME:meta-$LAIN_IMAGE_VERSION;
-    docker push laincloud/$LAIN_APPNAME:release-$LAIN_IMAGE_VERSION;
-    docker push laincloud/$LAIN_APPNAME:meta-$LAIN_IMAGE_VERSION;
+        docker login -u="$DOCKER_USER" -p="$DOCKER_PASS";
+        docker images;
+        docker tag $LAIN_APPNAME:release-$LAIN_IMAGE_VERSION laincloud/$LAIN_APPNAME:release-$LAIN_IMAGE_VERSION;
+        docker tag $LAIN_APPNAME:meta-$LAIN_IMAGE_VERSION laincloud/$LAIN_APPNAME:meta-$LAIN_IMAGE_VERSION;
+        docker push laincloud/$LAIN_APPNAME:release-$LAIN_IMAGE_VERSION;
+        docker push laincloud/$LAIN_APPNAME:meta-$LAIN_IMAGE_VERSION;
     fi

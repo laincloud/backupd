@@ -1,6 +1,7 @@
 # backupd
 [![Build Status](https://travis-ci.org/laincloud/backupd.svg?branch=master)](https://travis-ci.org/laincloud/backupd) [![MIT license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
-volume backup service for lain
+
+Volume backup service for Lain
 
 ## 介绍
 
