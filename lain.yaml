@@ -1,20 +1,20 @@
 appname: backupctl
 
 build:
-  base: laincloud/centos-lain:20180103
+  base: registry.docker-cn.com/laincloud/centos-lain:20180103
   script:
     - mkdir -p $GOPATH/src/github.com/laincloud/ && ln -s /lain/app $GOPATH/src/github.com/laincloud/backupd && cd $GOPATH/src/github.com/laincloud/backupd && go build -v -a -tags netgo -installsuffix netgo -o backupd
 
 release:
-  dest_base: laincloud/centos-lain:20180103
+  dest_base: registry.docker-cn.com/laincloud/centos-lain:20180103
   copy:
     - src: backupd
       dest: /usr/bin/backupd
     - src: ./script
-      dest: ./script
+      dest: /lain/app/script
 
 web:
-  cmd: ./script/run-controller.sh
+  cmd: /lain/app/script/run-controller.sh
   port: 80
   memory: 128m
   volumes:
@@ -23,7 +23,7 @@ web:
         backup_full:
           schedule: "0 0 * * *"
           expire: "7d"
-          pre_run: "./script/backup_pre.sh"
+          pre_run: "/lain/app/script/backup_pre.sh"
 
 notify:
   slack: "#lain"
